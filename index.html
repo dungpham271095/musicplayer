@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./main.css">
+   
+</head>
+<body>
+    <div class="player">
+        <div class="dashboard">
+            <header class="header">
+                <h2>Now playing</h2>
+                <h4 class="title">Nevada</h4>
+            </header>
+            <div class="cd">
+                <div class="cd-thumb" style="background-image: url(./assets/img/1.jpg);"></div>
+            </div>
+            <div class="controll">
+                <div class="controll-btn controll-btn-repeat">
+                    <i class="fa-solid fa-repeat"></i>
+                </div>
+                <div class="controll-btn">
+                    <i class="fa-solid fa-backward controll-btn-previous"></i>
+                </div>
+                <div class="controll-btn controll-toggle-btn actived">
+                    <i class="controll-btn-play fa-solid fa-play"></i>          
+                    <i class="controll-btn-pause fa-solid fa-pause"></i>
+                </div>
+                <div class="controll-btn controll-btn-next">
+                    <i class="fa-solid fa-forward"></i>
+                </div>
+                <div class="controll-btn controll-btn-random">
+                    <i class="fa-solid fa-shuffle"></i>
+                </div>
+            </div>
+           
+            <input type="range" name="" id="process" class="process" value="0" step="1" min="0" max="100">
+            <audio src=""></audio>
+        </div>
+      
+        <div class="playlist">
+         
+            
+        </div>
+    </div>
+    <script src="./main.js"></script>
+   
+</body>
+</html>
